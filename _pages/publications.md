@@ -1,16 +1,12 @@
 ---
 layout: archive
 title: "Publications"
-permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+*   [TITS'23] **Online Public Transit Ridership Monitoring Through Passive WiFi Sensing**
+   
+    **Wenbo Chang**, Baoqi Huang, Bing Jia, Wuyungerile Li, Gang Xu
+    
+    In：
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {%  %}
-{% endfor %}
